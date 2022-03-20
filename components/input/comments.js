@@ -9,6 +9,7 @@ function Comments(props) {
 
   const [showComments, setShowComments] = useState(false);
   const [comments, setComments] = useState([]);
+  const [refreshComments, setRefreshComments] = useState(0);
 
   useEffect(() => {
     if (showComments) {
@@ -18,7 +19,7 @@ function Comments(props) {
           setComments(data.comments);
         });
     }
-  }, [showComments]);
+  }, [showComments, refreshComments]);
 
   function toggleCommentsHandler() {
     setShowComments((prevStatus) => !prevStatus);
@@ -32,8 +33,7 @@ function Comments(props) {
         "Content-Type": "application/json",
       },
     });
-      const response = await commentResponse.json();
-      console.log(response);
+      setRefreshComments((prevComments) => prevComments + 1);
   }
 
   return (
