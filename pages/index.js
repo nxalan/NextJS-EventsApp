@@ -13,6 +13,7 @@ function HomePage(props) {
           content="Find a lot of great events that allow you to evolve"
         />
       </Head>
+      <NewsletterRegistation />
       <EventList items={props.events} />
     </div>
   );
