@@ -2,8 +2,8 @@
 
 ## Goals
 
-With this schedule events app, the developers can implement a new events page, or use it as a
-inspiration to build any static website using NextJS.
+The goal of this application is to create a simple application where we can create events and share.
+People can see all the posted events and filter by date, and comment on a specific event.
 
 You can see the live application [HERE](https://next-js-events-app-iota.vercel.app/)
 
