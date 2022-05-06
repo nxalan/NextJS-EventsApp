@@ -39,7 +39,7 @@ CONTENTFUL_TOKEN=<your mongodb database url>
 
 ## Live shot
 
-![Web1](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot3.png)
-![Web2](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot2.png)
-![Web3](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot1.png)
-![Web4](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot4.png)
+![Web1](https://github.com/nxalan/NextJS-EventsApp/blob/master/_assets/screenshot1.png)
+![Web2](https://github.com/nxalan/NextJS-EventsApp/blob/master/_assets/screenshot2.png)
+![Web3](https://github.com/nxalan/NextJS-EventsApp/blob/master/_assets/screenshot1.png)
+![Web4](https://github.com/nxalan/NextJS-EventsApp/blob/master/_assets/screenshot4.png)
