@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + EventsScheduler
 
-You can see the live application on [https://next-js-events-app-iota.vercel.app/](https://next-js-events-app-iota.vercel.app/)
+## Goals
+
+With this schedule events app, the developers can implement a new events page, or use it as a
+inspiration to build any static website using NextJS.
+
+You can see the live application [HERE](https://next-js-events-app-iota.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone --depth 1 https://github.com/nxalan/NextJS-EventsApp my-project
+cd my-project
+rm -r .git
+cp .env.example .env
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you enter the correct values in your `.env` file:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+DATABASE_URL=<your deployment json url>
+CONTENTFUL_TOKEN=<your mongodb database url>
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Useful Commands
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- `dev` - start application in development mode
+- `build` - build application in production mode
+- `start` - start application in production mode
 
-## Learn More
+## Stack
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.Js (V9+)](https://nextjs.org/)
+- Typescript
+- MongoDB
+- [Vercel](https://vercel.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Live shot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Web1](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot3.png)
+![Web2](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot2.png)
+![Web3](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot1.png)
+![Web4](https://github.com/nxalan/NextJS-EventsApp/blob/main/_assets/screenshot4.png)
